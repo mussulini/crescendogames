@@ -270,6 +270,44 @@
 		</div>
 	</section>
 
+
+
+
+<section class="main-content games">
+	<div class="container">
+
+		<div class="filter-bar">
+			<label for="searchInput">Search</label>
+			<input type="search" placeholder="Name" class="form-control" id="searchInput" />
+
+			<select class="form-select" id="gameFilter">
+			<option value="">Games</option>
+				<option value="chess">Chess</option>
+				<option value="poker">Poker</option>
+				<option value="go">Go</option>
+			</select>
+
+			<label for="sortBy">Sort</label>
+			<select class="form-select" id="sortBy">
+				<option value="newest">Newest</option>
+				<option value="oldest">Oldest</option>
+				<option value="az">A-Z</option>
+			</select>
+		</div>
+
+		<div class="card-container" id="cardContainer"></div>
+
+		<p id="noResults">No matching data found.</p>
+
+	</div>
+</section>
+
+
+
+
+
+
+
 </main>
 
 <footer id="footer">
@@ -350,6 +388,7 @@
 
 <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/offcanvas-navbar.js"></script>
+<script src="assets/js/app.js"></script>
 
 </body>
 </html>
