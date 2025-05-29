@@ -1,0 +1,13 @@
+@import "bootstrap.css";
+
+/* COMPONENTS */
+@import "components/header.css";
+@import "components/banner.css";
+@import "components/footer.css";
+
+/* PAGES */
+@import "pages/home.css";
+@import "pages/games.css";
+@import "pages/game-detail.css";
+@import "pages/news.css";
+@import "pages/registration.css";

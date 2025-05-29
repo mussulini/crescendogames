@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'dinpro';
+    src: url('../../assets/fonts/din-regular-webfont.eot');                                    /* IE9 Compat Modes */
+    src: url('../../assets/fonts/din-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../assets/fonts/din-regular-webfont.woff')       format('woff'),              /* Modern Browsers */
+         url('../../assets/fonts/din-regular-webfont.ttf')        format('truetype'),          /* Safari, Android, iOS */
+         url('../../assets/fonts/din-regular-webfont.svg#dinregular') format('svg');           /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+}
+
+:root,
+[data-bs-theme="light"] {
+    --bs-primary: #F05E34;
+    --bs-secondary: #4439A1;
+    --bs-accent: #FEB400;
+    --bs-body-color: #222338;
+    --bs-body-secondary-color: #637782; /* text-muted */
+    --bs-link-color-rgb: 254,180,0;
+    --link-color: #4439A1;
+    --bs-body-bg: #EBEBEB;
+    --bs-body-bg-alt: #ffffff;
+    --bs-card-bg: #352F73;
+        --card-bg: #352F73;
+    --bs-card-bg-alt: #121320;
+    --card-color: #D1E4F3;
+    --bs-card-link: #ffffff;
+    --bs-input-bg: #ffffff;
+    --bs-border-color: #494A60;
+    --bs-font-sans-serif: 'dinpro', "Open Sans", Tahoma, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-linear-gradient: linear-gradient(315deg, var(--bs-primary) 0%, #77269A 100%);
+    --bs-radial-gradient: radial-gradient(50% 50% at 50% 50%, #25124A 0%, var(--bs-body-bg) 100%);
+
+    /* HEADER */
+    --bs-header-bg: #1C1D31;
+    --bs-header-color: #D1E4F3;
+    --header-height: 84px;
+    --md-header-height: 64px;
+
+    /* FOOTER */
+    --bs-footer-bg: #1C1D31;
+    --bs-footer-color: #D1E4F3;
+
+    /* BANNER */
+    --bs-banner-bg: #ffffff;
+}
+
+.g-6, .gx-6 {--bs-gutter-x: 6rem}
+.g-6, .gy-6 {--bs-gutter-y: 6rem}
+
+a {text-decoration: none}
+
+.btn-primary {
+    color: var(--bs-white);
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+}
+.btn-secondary {
+    color: var(--bs-white);
+    --bs-btn-bg: var(--bs-secondary);
+    --bs-btn-border-color: var(--bs-secondary);
+}
+
+.dropdown-menu-dark {--bs-dropdown-bg: var(--bs-body-bg)}
+
+.form-select,
+.form-control, .form-control:focus {
+    /* color: var(--bs-body-bg); */
+    border-color: var(--bs-input-bg);
+    background-color: var(--bs-input-bg);
+}
+.form-check-input {border-color: var(--bs-input-bg)}
+.form-control::placeholder {color: var(--bs-body-secondary-color)}
+[data-bs-theme=dark] .form-select {
+    --bs-form-select-bg-img: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+}
+.form-check-input:checked {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary)
+}
+.form-floating > label {color: var(--bs-body-secondary-color)}
+
+.form-floating > .form-control-plaintext ~ label, 
+.form-floating > .form-control:focus ~ label, 
+.form-floating > .form-control:not(:placeholder-shown) ~ label, 
+.form-floating > .form-select ~ label {color: var(--bs-body-secondary-color)}
+
+.form-floating > .form-control-plaintext ~ label::after, 
+.form-floating > .form-control:focus ~ label::after, 
+.form-floating > .form-control:not(:placeholder-shown) ~ label::after, 
+.form-floating > .form-select ~ label::after {background-color: var(--bs-input-bg)}
+
+.card,
+.card-text  {color: var(--card-color)}
+.card-title {color: var(--bs-white) !important}
+    .card a {color: var(--bs-card-link) !important}
+
+/* FIXED HEADER */
+body {padding-top: var(--header-height)}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    body {padding-top: var(--md-header-height)}
+}
+
+/* MAIN */
+#main .main-content {
+    padding-top: var(--bs-body-font-size);
+    padding-bottom: var(--bs-body-font-size);
+    /* background-color: var(--bs-body-bg-alt); */
+}
+.main-content a {color: var(--link-color)}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    #main .main-content {
+        padding-top: calc(var(--bs-body-font-size) * 2);
+        padding-bottom: calc(var(--bs-body-font-size) * 2);
+    }
+}
+
+@media (min-width: 1400px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1140px
+    }
+}

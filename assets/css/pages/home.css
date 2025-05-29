@@ -1,0 +1,77 @@
+/* HOME V1 */
+
+/* Dashboard Headings */
+.page-home .dashboard .heading {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: calc(var(--bs-body-font-size) * 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--bs-body-font-size);
+    align-self: stretch;
+}
+.page-home .dashboard .heading:before,
+.page-home .dashboard .heading:after {
+    content: '';
+    display: flex;
+    height: calc(var(--bs-body-font-size) / 4);
+    flex-direction: column;
+    align-items: center;
+    flex: 1 0 0;
+    background-color: var(--bs-secondary);
+    background-image: linear-gradient(90deg, var(--bs-secondary) -0.05%, #6F42C1 100.12%);
+}
+/* Dashboard Cards */
+.page-home .dashboard .card-game {
+    text-align: center;
+    position: relative;
+    transition: 0.25s;
+}
+.page-home .dashboard .game-title {
+    z-index: 1;
+    position: absolute;
+    width: 100%; top: 75%;
+    color: var(--bs-heading-color);
+    display: block; text-align: center;
+}
+.page-home .dashboard .card-game img {
+    position: relative;
+}
+
+/* V2 */
+.page-home .dashboard.games .card-title {
+    width: 100%;
+    text-align: center;
+}
+
+.view-all {
+    line-height: 1;
+    transition: .25s;
+    color: var(--bs-heading-color);
+    display: inline-flex; align-items: center;
+    margin-top: calc(var(--bs-body-font-size) * 1.5);
+    gap: calc(var(--bs-body-font-size) / 2);
+}
+.view-all:hover, 
+.view-all:focus {opacity: 0.5}
+
+@media (max-width: 1399px) { /* Table / Mobile */
+    .page-home .dashboard .card-game img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 991.98px) { /* ≥ 992px Medium (mobile/tablet) */
+    .view-all {justify-content: center}
+    .view-all .icon {width: 24px;
+        display: inline-flex;
+    }
+    /* V2 */
+    .view-all {display: none}
+    #moreGames.collapse:not(.show) {
+        display: block !important;
+    }
+}
