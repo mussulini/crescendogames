@@ -1,0 +1,50 @@
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore node_modules (for JavaScript/Node.js projects)
+node_modules/
+
+# Ignore build outputs
+#dist/
+build/
+out/
+
+# Ignore logs
+*.log
+npm-debug.log*
+
+# Ignore environment config files
+.env
+.env.*
+
+# Ignore dependency lock files (optional depending on team policy)
+# package-lock.json
+# yarn.lock
+
+# Ignore editor/IDE settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore system files and metadata
+*.swp
+*.bak
+*.tmp
+*.Zone.Identifier
+
+# Ignore compiled binaries and object files
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.pyc
+__pycache__/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore Git-related files
+.git/
