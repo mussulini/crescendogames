@@ -49,6 +49,10 @@
 .g-6, .gx-6 {--bs-gutter-x: 6rem}
 .g-6, .gy-6 {--bs-gutter-y: 6rem}
 
+.h1,.h2,.h3,.h4,h1,h2,h3,h4 {
+    font-weight: 600;
+}
+
 a {text-decoration: none}
 
 .btn-primary {
