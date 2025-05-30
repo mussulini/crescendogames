@@ -210,7 +210,7 @@
 
 <footer id="footer">
 	<div class="container">
-		<div>© 2024 <a href="index.html" class="text-decoration-none text-white">Crescendo Games</a>. All rights reserved.</div>
+		<div>&copy; <span id="year"></span> <a href="index.html" class="text-decoration-none text-white">Crescendo Games</a>. All rights reserved.</div>
 
 		<ul class="nav">
 			<li class="nav-item"><a class="nav-link" target="_blank" href="https://www.facebook.com/people/Crescendo-Games/61563038046066/">
@@ -265,27 +265,14 @@
 				</svg>					
 			</a></li>
 		</ul>
-
-		<div class="language dropdown dropup" data-bs-theme="dark">
-			<a href="#" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-				<img src="assets/images/flags/GB.png" alt="English" height="20">
-			</a>
-			<ul class="dropdown-menu dropdown-menu-dark">
-				<li><a class="dropdown-item" href="#"><img src="assets/images/flags/GB.png" alt="English" height="20"> English</a></li>
-				<li><a class="dropdown-item" href="#"><img src="assets/images/flags/CN.png" alt="简体中文" height="20"> 简体中文</a></li>
-				<li><a class="dropdown-item" href="#"><img src="assets/images/flags/ID.png" alt="Bahasa Indonesia" height="20"> Bahasa Indonesia</a></li>
-				<li><a class="dropdown-item" href="#"><img src="assets/images/flags/JP.png" alt="日本語" height="20"> 日本語</a></li>
-				<li><a class="dropdown-item" href="#"><img src="assets/images/flags/KH.png" alt="ខ្មែរ" height="20"> ខ្មែរ</a></li>
-				<li><a class="dropdown-item" href="#"><img src="assets/images/flags/KR.png" alt="한국어" height="20"> 한국어</a></li>
-				<li><a class="dropdown-item" href="#"><img src="assets/images/flags/TH.png" alt="ไทย" height="20"> ไทย</a></li>
-				<li><a class="dropdown-item" href="#"><img src="assets/images/flags/VN.png" alt="Tiếng Việt" height="20"> Tiếng Việt</a></li>
-			</ul>
-		</div>
 	</div>
 </footer>
 
 <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/offcanvas-navbar.js"></script>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 </body>
 </html>
