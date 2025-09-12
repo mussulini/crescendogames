@@ -97,6 +97,8 @@
     opacity: 0.5;
     mix-blend-mode: luminosity;
     transition: .25s;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .game-detail.language img:hover {

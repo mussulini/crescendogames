@@ -8,6 +8,13 @@ document.addEventListener("DOMContentLoaded", () => {
             game: "Adventure", date: "2025-10-09",
             playLink: "#", pageLink: "pirates.html"
         },
+        {   name: "Zap Keno", 
+            summary: "Your fast lane to fun!",
+            banner: "assets/images/zap/zap-442x310.png",
+            thumbnail: "assets/images/zap/zap-200x200.jpg",
+            game: "Adventure", date: "2025-05-13",
+            playLink: "#", pageLink: "zap.html"
+        },
         {   name: "Mines of Mystery", 
             summary: "Unearth Riches in Mines of Mystery",
             banner: "assets/images/mines/mines-442x310.png",
