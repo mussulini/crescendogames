@@ -1,6 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     const data = [
+        {   name: "Pirate's Bounty", 
+            summary: "Ahoy, adventurers! Set sail for treasure!",
+            banner: "assets/images/pirates/pirates-442x310.png",
+            thumbnail: "assets/images/pirates/pirates-200x200.png",
+            game: "Adventure", date: "2025-10-09",
+            playLink: "#", pageLink: "pirates.html"
+        },
         {   name: "Mines of Mystery", 
             summary: "Unearth Riches in Mines of Mystery",
             banner: "assets/images/mines/mines-442x310.png",

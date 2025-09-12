@@ -1,16 +1,11 @@
 /* NEWS */
 
 /* BANNER */
-.page-news .main-banner .carousel-indicators {
-    margin-top: 0;
-    margin-bottom: 0;
-}
 .page-news .main-banner .details {
     display: flex;
     align-items: flex-end;
     gap: var(--bs-body-font-size);
-    position: absolute;
-    bottom: 0;
+    margin-top: -1.75rem;
 }
 .page-news .main-banner h1,
 .page-news .main-banner p {
@@ -82,8 +77,7 @@
 }
 .page-news .timeline::after {
     width: 1px;
-    opacity: 0.5;
-    background-color: var(--bs-border-color);
+    background-color: var(--card-color);
 }
 
 .page-news .timeline > article {

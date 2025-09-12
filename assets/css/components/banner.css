@@ -4,6 +4,7 @@
     color: var(--bs-banner-color);
     padding: var(--bs-body-font-size) 0;
     background-color: var(--bs-banner-bg);
+    position: relative;
 }
 .main-banner > .container{
     position: relative;
@@ -32,7 +33,7 @@
 
 @media (max-width: 1199.98px) { /* ≥ 992px Medium (mobile/tablet) */
     .main-banner .carousel-indicators {
-        margin-top: auto;
+        margin: 0;
         text-align: center !important;
     }
 }
@@ -68,4 +69,10 @@
         border-width: 2px;
         border-radius: 8px;
     }
+}
+
+
+/* OVERRIDES */
+.carousel-item {
+    font-size: 0;
 }
