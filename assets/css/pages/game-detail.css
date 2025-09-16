@@ -10,12 +10,14 @@
 }
 
 /* CONTENT */
+.page-game-detail .game-banner {
+    margin-bottom: -20%;    
+}
 .page-game-detail .content {
     display: flex;
     flex-direction: column;
     gap: calc(var(--bs-body-font-size) * 1.5);
     padding: 0 var(--bs-body-font-size);
-    margin-top: -20%;
 }
 @media (min-width: 1400px) {
     .page-game-detail .content {

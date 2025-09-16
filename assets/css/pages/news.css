@@ -91,6 +91,18 @@
     border-radius: 0;
     text-align: center;
     background-color: var(--card-bg);
+    transition: 0.25s;
+}
+.page-news .timeline .card-text {
+    transition: 0.25s;
+}
+.page-news .timeline .card:hover {
+    transform: translateY(calc(var(--bs-body-font-size) * -.5));
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.25));
+}
+.page-news .timeline .card:hover .card-text {
+    font-weight: 500;
+    color: var(--bs-accent);
 }
 .page-news .timeline .card img {
     max-width: 458px;
