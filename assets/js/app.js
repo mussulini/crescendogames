@@ -6,63 +6,63 @@ document.addEventListener("DOMContentLoaded", () => {
             banner: "assets/images/pirates/pirates-442x310.png",
             thumbnail: "assets/images/pirates/pirates-200x200.png",
             game: "Adventure", date: "2025-10-09",
-            playLink: "#", pageLink: "pirates.html"
+            playLink: "https://csslot-uat.gpistudios.com/PiratesBounty/?op=W88", pageLink: "pirates.html"
         },
         {   name: "Zap Keno", 
             summary: "Your fast lane to fun!",
             banner: "assets/images/zap/zap-442x310.png",
             thumbnail: "assets/images/zap/zap-200x200.jpg",
             game: "Adventure", date: "2025-05-13",
-            playLink: "#", pageLink: "zap.html"
+            playLink: "https://games.crescendoops.com/launcher/?mode=try&vendor=crescendogames&game=zapkeno", pageLink: "zap.html"
         },
         {   name: "Mines of Mystery", 
             summary: "Unearth Riches in Mines of Mystery",
             banner: "assets/images/mines/mines-442x310.png",
             thumbnail: "assets/images/mines/mines-200x200.jpg",
             game: "Adventure", date: "2025-05-13",
-            playLink: "#", pageLink: "mines.html"
+            playLink: "https://games.crescendoops.com/launcher/?mode=try&vendor=crescendogames&game=MinesOfMystery", pageLink: "mines.html"
         },
         {   name: "Goemon", 
             summary: "Hero's Ascent, Fortune's Descent - Ninja's Way!",
             banner: "assets/images/goemon/game-goemon.png",
             thumbnail: "assets/images/goemon/game-thumb-goemon.png",
             game: "Adventure", date: "2025-02-20",
-            playLink: "#", pageLink: "goemon.html"
+            playLink: "https://games.crescendoops.com/launcher/?mode=try&vendor=crescendogames&game=Goemon", pageLink: "goemon.html"
         },
         {   name: "Lo De", 
             summary: "Bet Big, Win Bigger <br>Choose the right lottery!",
             banner: "assets/images/lode/lode-game.png",
             thumbnail: "assets/images/lode/lode-game-thumb.png",
             game: "Casino / Lottery", date: "2024-08-22",
-            playLink: "#", pageLink: "lode.html"
+            playLink: "https://games.crescendoops.com/launcher/?mode=try&vendor=crescendogames&game=LoDe", pageLink: "lode.html"
         },
         {   name: "Hi Lo", 
             summary: "Steer you win! Your card, your play, your way!",
             banner: "assets/images/hilo/hilo-game.png",
             thumbnail: "assets/images/hilo/hilo-game-thumb.png",
             game: "Casino / Card Game", date: "2024-04-30",
-            playLink: "#", pageLink: "hilo.html"
+            playLink: "https://games.crescendoops.com/launcher/?mode=try&vendor=crescendogames&game=HiLo", pageLink: "hilo.html"
         },
         {   name: "Crypto Crash", 
             summary: "Defy the odds, test your wits, and soar up your win!",
             banner: "assets/images/cc/crypto-crash-game.png",
             thumbnail: "assets/images/cc/crypto-crash-game-thumb.png",
             game: "Casino / Risk-Reward", date: "2023-11-14",
-            playLink: "#", pageLink: "crypto-crash.html"
+            playLink: "https://games.crescendoops.com/launcher/?mode=try&vendor=crescendogames&game=CryptoCrash", pageLink: "crypto-crash.html"
         },
         {   name: "Crypto Roulette", 
             summary: "Simplifies winning with decisive acts!",
             banner: "assets/images/cr/crypto-roulette-game.png",
             thumbnail: "assets/images/cr/crypto-roulette-game-thumb.png",
             game: "Casino / Roulette", date: "2023-11-28",
-            playLink: "#", pageLink: "crypto-roulette.html"
+            playLink: "https://games.crescendoops.com/launcher/?mode=try&vendor=crescendogames&game=CryptoRoulette", pageLink: "crypto-roulette.html"
         },
         {   name: "Snow Sweeper", 
             summary: "Uncover the icy secrets, win the frozen adventure!",
             banner: "assets/images/ss/snow-sweeper-game.png",
             thumbnail: "assets/images/ss/snow-sweeper-game-thumb.png",
             game: "Puzzle / Adventure", date: "2024-04-02",
-            playLink: "#", pageLink: "snow-sweeper.html"
+            playLink: "https://games.crescendoops.com/launcher/?mode=try&vendor=crescendogames&game=Snowsweeper", pageLink: "snow-sweeper.html"
         }
     ];
 
@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <div class="card-img-wrapper">
                         <img src="${item.banner}" class="card-img-top" alt="${item.name}">
                         <div class="card-img-overlay">
-                            <a href="${item.playLink}" class="btn btn-primary disabled" role="button" aria-disabled="true">
+                            <a class="btn btn-primary" role="button" href="${item.playLink}" target="_blank" rel="noopener">
                                 Play Now
                             </a>
                             <a href="${item.pageLink}" class="btn btn-outline-light" role="button">
