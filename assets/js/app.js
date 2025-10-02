@@ -1,11 +1,18 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     const data = [
+        {   name: "Carnival Shooter", 
+            summary: "Step Right Up to the Wildest Spin on the Midway!",
+            banner: "assets/images/carnival/carnival-442x310.png",
+            thumbnail: "assets/images/carnival/carnival-200x200.png",
+            game: "Adventure", date: "2025-10-02",
+            playLink: "https://games.crescendoslot.com/CarnivalShooter/?op=W88&lang=en-us&fun=1", pageLink: "carnival.html"
+        },
         {   name: "Pirate's Bounty", 
             summary: "Ahoy, adventurers! Set sail for treasure!",
             banner: "assets/images/pirates/pirates-442x310.png",
             thumbnail: "assets/images/pirates/pirates-200x200.png",
-            game: "Adventure", date: "2025-10-09",
+            game: "Adventure", date: "2025-09-02",
             playLink: "https://csslot-uat.gpistudios.com/PiratesBounty/?op=W88", pageLink: "pirates.html"
         },
         {   name: "Zap Keno", 

@@ -19,6 +19,11 @@
     gap: calc(var(--bs-body-font-size) * 1.5);
     padding: 0 var(--bs-body-font-size);
 }
+.page-game-detail .game-summary {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
 @media (min-width: 1400px) {
     .page-game-detail .content {
         gap: 60px;
