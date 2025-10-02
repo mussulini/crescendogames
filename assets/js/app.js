@@ -6,14 +6,14 @@ document.addEventListener("DOMContentLoaded", () => {
             banner: "assets/images/carnival/carnival-442x310.png",
             thumbnail: "assets/images/carnival/carnival-200x200.png",
             game: "Adventure", date: "2025-10-02",
-            playLink: "https://games.crescendoslot.com/CarnivalShooter/?op=W88&lang=en-us&fun=1", pageLink: "carnival.html"
+            playLink: "https://games.crescendoslot.com/CarnivalShooter/?lang=en-us&fun=1&op=crescendogames", pageLink: "carnival.html"
         },
         {   name: "Pirate's Bounty", 
             summary: "Ahoy, adventurers! Set sail for treasure!",
             banner: "assets/images/pirates/pirates-442x310.png",
             thumbnail: "assets/images/pirates/pirates-200x200.png",
             game: "Adventure", date: "2025-09-02",
-            playLink: "https://csslot-uat.gpistudios.com/PiratesBounty/?op=W88", pageLink: "pirates.html"
+            playLink: "https://games.crescendoslot.com/PiratesBounty/?lang=en-us&fun=1&op=crescendogames", pageLink: "pirates.html"
         },
         {   name: "Zap Keno", 
             summary: "Your fast lane to fun!",
