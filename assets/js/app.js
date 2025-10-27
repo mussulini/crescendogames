@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     const data = [
-        {   name: "Cyberpunk Lora", 
-            summary: "Spin with purpose, strike with style, and light up the neon battlefield.",
-            banner: "assets/images/cyberpunk/cyberpunk-442x310.png",
-            thumbnail: "assets/images/cyberpunk/cyberpunk-200x200.png",
-            game: "Games", date: "2025-10-30",
-            playLink: "https://games.crescendoslot.com/CyberpunkLora/?lang=en-us&fun=1&op=crescendogames", pageLink: "cyberpunk.html"
-        },
+        // {   name: "Cyberpunk Lora", 
+        //     summary: "Spin with purpose, strike with style, and light up the neon battlefield.",
+        //     banner: "assets/images/cyberpunk/cyberpunk-442x310.png",
+        //     thumbnail: "assets/images/cyberpunk/cyberpunk-200x200.png",
+        //     game: "Games", date: "2025-10-30",
+        //     playLink: "https://games.crescendoslot.com/CyberpunkLora/?lang=en-us&fun=1&op=crescendogames", pageLink: "cyberpunk.html"
+        // },
         {   name: "Mini Roulette", 
             summary: "---",
             banner: "assets/images/roulette/roulette-442x310.png",
