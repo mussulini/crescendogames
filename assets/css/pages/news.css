@@ -94,6 +94,10 @@
     transition: 0.25s;
 }
 .page-news .timeline .card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 426px;
     transition: 0.25s;
 }
 .page-news .timeline .card:hover {

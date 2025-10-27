@@ -1,6 +1,20 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     const data = [
+        {   name: "Cyberpunk Lora", 
+            summary: "Spin with purpose, strike with style, and light up the neon battlefield.",
+            banner: "assets/images/cyberpunk/cyberpunk-442x310.png",
+            thumbnail: "assets/images/cyberpunk/cyberpunk-200x200.png",
+            game: "Games", date: "2025-10-30",
+            playLink: "https://games.crescendoslot.com/CyberpunkLora/?lang=en-us&fun=1&op=crescendogames", pageLink: "cyberpunk.html"
+        },
+        {   name: "Mini Roulette", 
+            summary: "---",
+            banner: "assets/images/roulette/roulette-442x310.png",
+            thumbnail: "assets/images/roulette/roulette-200x200.png",
+            game: "Games", date: "2025-10-14",
+            playLink: "https://games.crescendoops.com/launcher/?mode=try&vendor=crescendogames&game=miniroulette", pageLink: "roulette.html"
+        },
         {   name: "Carnival Shooter", 
             summary: "Step Right Up to the Wildest Spin on the Midway!",
             banner: "assets/images/carnival/carnival-442x310.png",
@@ -19,28 +33,28 @@ document.addEventListener("DOMContentLoaded", () => {
             summary: "Your fast lane to fun!",
             banner: "assets/images/zap/zap-442x310.png",
             thumbnail: "assets/images/zap/zap-200x200.jpg",
-            game: "Adventure", date: "2025-05-13",
+            game: "Adventure", date: "2025-06-19",
             playLink: "https://games.crescendoops.com/launcher/?mode=try&vendor=crescendogames&game=zapkeno", pageLink: "zap.html"
         },
         {   name: "Mines of Mystery", 
             summary: "Unearth Riches in Mines of Mystery",
             banner: "assets/images/mines/mines-442x310.png",
             thumbnail: "assets/images/mines/mines-200x200.jpg",
-            game: "Adventure", date: "2025-05-13",
+            game: "Adventure", date: "2025-05-06",
             playLink: "https://games.crescendoops.com/launcher/?mode=try&vendor=crescendogames&game=MinesOfMystery", pageLink: "mines.html"
         },
         {   name: "Goemon", 
             summary: "Hero's Ascent, Fortune's Descent - Ninja's Way!",
             banner: "assets/images/goemon/game-goemon.png",
             thumbnail: "assets/images/goemon/game-thumb-goemon.png",
-            game: "Adventure", date: "2025-02-20",
+            game: "Adventure", date: "2025-02-13",
             playLink: "https://games.crescendoops.com/launcher/?mode=try&vendor=crescendogames&game=Goemon", pageLink: "goemon.html"
         },
         {   name: "Lo De", 
             summary: "Bet Big, Win Bigger <br>Choose the right lottery!",
             banner: "assets/images/lode/lode-game.png",
             thumbnail: "assets/images/lode/lode-game-thumb.png",
-            game: "Casino / Lottery", date: "2024-08-22",
+            game: "Casino / Lottery", date: "2024-08-15",
             playLink: "https://games.crescendoops.com/launcher/?mode=try&vendor=crescendogames&game=LoDe", pageLink: "lode.html"
         },
         {   name: "Hi Lo", 
@@ -50,26 +64,26 @@ document.addEventListener("DOMContentLoaded", () => {
             game: "Casino / Card Game", date: "2024-04-30",
             playLink: "https://games.crescendoops.com/launcher/?mode=try&vendor=crescendogames&game=HiLo", pageLink: "hilo.html"
         },
-        {   name: "Crypto Crash", 
-            summary: "Defy the odds, test your wits, and soar up your win!",
-            banner: "assets/images/cc/crypto-crash-game.png",
-            thumbnail: "assets/images/cc/crypto-crash-game-thumb.png",
-            game: "Casino / Risk-Reward", date: "2023-11-14",
-            playLink: "https://games.crescendoops.com/launcher/?mode=try&vendor=crescendogames&game=CryptoCrash", pageLink: "crypto-crash.html"
-        },
-        {   name: "Crypto Roulette", 
-            summary: "Simplifies winning with decisive acts!",
-            banner: "assets/images/cr/crypto-roulette-game.png",
-            thumbnail: "assets/images/cr/crypto-roulette-game-thumb.png",
-            game: "Casino / Roulette", date: "2023-11-28",
-            playLink: "https://games.crescendoops.com/launcher/?mode=try&vendor=crescendogames&game=CryptoRoulette", pageLink: "crypto-roulette.html"
-        },
         {   name: "Snow Sweeper", 
             summary: "Uncover the icy secrets, win the frozen adventure!",
             banner: "assets/images/ss/snow-sweeper-game.png",
             thumbnail: "assets/images/ss/snow-sweeper-game-thumb.png",
             game: "Puzzle / Adventure", date: "2024-04-02",
             playLink: "https://games.crescendoops.com/launcher/?mode=try&vendor=crescendogames&game=Snowsweeper", pageLink: "snow-sweeper.html"
+        },
+        {   name: "Crypto Crash", 
+            summary: "Defy the odds, test your wits, and soar up your win!",
+            banner: "assets/images/cc/crypto-crash-game.png",
+            thumbnail: "assets/images/cc/crypto-crash-game-thumb.png",
+            game: "Casino / Risk-Reward", date: "2023-11-28",
+            playLink: "https://games.crescendoops.com/launcher/?mode=try&vendor=crescendogames&game=CryptoCrash", pageLink: "crypto-crash.html"
+        },
+        {   name: "Crypto Roulette", 
+            summary: "Simplifies winning with decisive acts!",
+            banner: "assets/images/cr/crypto-roulette-game.png",
+            thumbnail: "assets/images/cr/crypto-roulette-game-thumb.png",
+            game: "Casino / Roulette", date: "2023-11-14",
+            playLink: "https://games.crescendoops.com/launcher/?mode=try&vendor=crescendogames&game=CryptoRoulette", pageLink: "crypto-roulette.html"
         }
     ];
 

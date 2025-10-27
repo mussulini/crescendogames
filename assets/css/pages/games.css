@@ -46,7 +46,7 @@
     width: 50px;
     height: auto;
     border-radius: 6px;
-    border: 1px solid var(--bs-heading-color);
+    border: 1px solid #ffffff;
 }
 .games .card-game .game-details {
     display: flex;
