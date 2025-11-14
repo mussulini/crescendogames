@@ -40,24 +40,19 @@
     margin-bottom: -10px;
     display: none;
 }
-.page-game-detail .content .img-thumbnail {
+.page-game-detail .game-heading .img-thumbnail {
     padding: 0;
     width: 300px;
     display: inline-block;
     border: 2px solid rgba(255, 255, 255, 0.5);
 }
-.page-game-detail .content .img-thumbnail img {
+.page-game-detail .content .img-fluid {
     width: 100%;
-    opacity: 0.6;
-    transition: .25s;
-    border-radius: 4px;
+    height: auto;
 }
 .page-game-detail .content .expand-icon {
     position: absolute;
     left: 10px; bottom: 10px;
-}
-.page-game-detail .expand-link:hover .img-thumbnail img {
-    opacity: 1;
 }
 
 .page-game-detail .content .game-heading {
@@ -67,13 +62,13 @@
     align-self: stretch;
     margin-top: 118px;
 }
-.page-game-detail .content .game-heading .game-thumbnail {
+.page-game-detail .game-heading .game-thumbnail {
     width: 160px;
     height: auto;
     border-radius: 10px;
     border: 2px solid #ffffff;
 }
-.page-game-detail .content .game-heading .game-title {
+.page-game-detail .game-heading .game-title {
     font-size: 40px;
     display: -webkit-box;
     -webkit-box-orient: vertical;

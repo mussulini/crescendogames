@@ -27,7 +27,7 @@
        --card-color: #D1E4F3;
     --bs-card-link: #ffffff;
     --bs-input-bg: #ffffff;
-    --bs-border-color: #494A60;
+    --bs-border-color: #D9D9D9;
     --bs-font-sans-serif: 'dinpro', "Open Sans", Tahoma, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-linear-gradient: linear-gradient(315deg, var(--bs-primary) 0%, #77269A 100%);
     --bs-radial-gradient: radial-gradient(50% 50% at 50% 50%, #25124A 0%, var(--bs-body-bg) 100%);
