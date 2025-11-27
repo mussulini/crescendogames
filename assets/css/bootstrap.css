@@ -16,6 +16,7 @@
     --bs-secondary: #4439A1;
     --bs-accent: #FEB400;
     --bs-body-color: #222338;
+    --bs-heading-color: #1C1D31;
     --bs-body-secondary-color: #637782; /* text-muted */
     --bs-link-color-rgb: 254,180,0;
     --link-color: #4439A1;
@@ -101,8 +102,16 @@ a {text-decoration: none}
 .card-title {color: var(--bs-white) !important}
     .card a {color: var(--bs-card-link) !important}
 
-/* FIXED HEADER */
-body {padding-top: var(--header-height)}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Fixed header */
+    padding-top: var(--header-height);
+}
+#footer {
+    margin-top: auto;
+}
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {

@@ -75,6 +75,7 @@
 @media (max-width: 991.98px) { /* ≥ 992px Medium (mobile/tablet) */
     .games .game-lists .col-4 {
         width: 50%;
+        display: flex;
     }
     .games .card-game .game-details {
         gap: calc(var(--bs-body-font-size) / 4);

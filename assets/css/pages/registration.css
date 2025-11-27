@@ -3,7 +3,10 @@
 .page-registration .main-content {
     padding: calc(var(--bs-body-font-size) * 3) 0;
 }
-.page-registration .main-content .container {max-width: 770px}
+.page-registration .main-content .container {
+    max-width: 770px;
+    padding: 0 var(--bs-body-font-size);
+}
 .contact-us .main-content .container {max-width: 820px}
 .page-registration .main-content header .heading {
     line-height: 1;

@@ -1,18 +1,32 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     const data = [
+        {   name: "Mystic Geisha", 
+            summary: "✨ Enter the Garden of Fortune",
+            banner: "assets/images/mystic/mystic-442x310.png",
+            thumbnail: "assets/images/mystic/mystic-200x200.png",
+            game: "Slots", date: "2025-11-27",
+            playLink: "https://games.crescendoslot.com/MysticGeisha/?lang=en-us&fun=1&op=crescendogames", pageLink: "mystic.html"
+        },
+        {   name: "Broker", 
+            summary: "---",
+            banner: "assets/images/broker/broker-442x310.png",
+            thumbnail: "assets/images/broker/broker-200x200.png",
+            game: "Slots", date: "2025-11-13",
+            playLink: "#", pageLink: "broker.html"
+        },
         {   name: "Cyberpunk Lora", 
             summary: "Spin with purpose, strike with style, and light up the neon battlefield.",
             banner: "assets/images/cyberpunk/cyberpunk-442x310.png",
             thumbnail: "assets/images/cyberpunk/cyberpunk-200x200.png",
-            game: "Games", date: "2025-10-30",
+            game: "Slots", date: "2025-10-30",
             playLink: "https://games.crescendoslot.com/CyberpunkLora/?lang=en-us&fun=1&op=crescendogames", pageLink: "cyberpunk.html"
         },
         {   name: "Mini Roulette", 
             summary: "---",
             banner: "assets/images/roulette/roulette-442x310.png",
             thumbnail: "assets/images/roulette/roulette-200x200.png",
-            game: "Games", date: "2025-10-14",
+            game: "Slots", date: "2025-10-14",
             playLink: "https://games.crescendoops.com/launcher/?mode=try&vendor=crescendogames&game=miniroulette", pageLink: "roulette.html"
         },
         {   name: "Carnival Shooter", 

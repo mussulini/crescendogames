@@ -18,7 +18,7 @@
     align-items: center;
 }
 #header .nav-link {
-    color: var(--bs-heading-color);
+    color: var(--bs-white);
     text-transform: uppercase;
     font-weight: 500;
     line-height: 1;

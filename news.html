@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-bs-theme="dark">
+<html lang="en">
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -50,6 +50,32 @@
 	<div id="mainBanner" class="main-banner g-0 carousel slide carousel-fade" data-bs-ride="carousel">
 		<div class="carousel-inner container">
 			<div class="carousel-item active" data-bs-interval="2500">
+				<img src="assets/images/mystic/mystic-main-banner.png" class="banner img-fluid" alt="Mystic Geisha">
+				<section class="details text-start">
+					<div class="date">
+						<h1 class="display-1">27</h1>
+						<p class="lead">2025-11</p>
+					</div>
+					<div class="game-info">
+						<h1 class="heading pb-1">Mystic Geisha</h1>
+						<p class="lead">✨ Enter the Garden of Fortune</p>
+					</div>
+				</section>
+			</div>
+			<div class="carousel-item" data-bs-interval="2500">
+				<img src="assets/images/broker/broker-main-banner.png" class="banner img-fluid" alt="Broker">
+				<section class="details text-start">
+					<div class="date">
+						<h1 class="display-1">14</h1>
+						<p class="lead">2025-11</p>
+					</div>
+					<div class="game-info">
+						<h1 class="heading pb-1">Broker</h1>
+						<p class="lead">---</p>
+					</div>
+				</section>
+			</div>
+			<div class="carousel-item" data-bs-interval="2500">
 				<img src="assets/images/cyberpunk/cyberpunk-main-banner.png" class="banner img-fluid" alt="Cyberpunk Lora">
 				<section class="details text-start">
 					<div class="date">
@@ -62,43 +88,17 @@
 					</div>
 				</section>
 			</div>
-			<div class="carousel-item" data-bs-interval="2500">
-				<img src="assets/images/roulette/roulette-main-banner.png" class="banner img-fluid" alt="Mini Roulette">
-				<section class="details text-start">
-					<div class="date">
-						<h1 class="display-1">14</h1>
-						<p class="lead">2025-10</p>
-					</div>
-					<div class="game-info">
-						<h1 class="heading pb-1">Mini Roulette</h1>
-						<p class="lead">---</p>
-					</div>
-				</section>
-			</div>
-			<div class="carousel-item" data-bs-interval="2500">
-				<img src="assets/images/carnival/carnival-main-banner.png" class="banner img-fluid" alt="Carnival Shooter">
-				<section class="details text-start">
-					<div class="date">
-						<h1 class="display-1">02</h1>
-						<p class="lead">2025-10</p>
-					</div>
-					<div class="game-info">
-						<h1 class="heading pb-1">Carnival Shooter</h1>
-						<p class="lead">Step Right Up to the Wildest Spin on the Midway!</p>
-					</div>
-				</section>
-			</div>
 		</div>
 
 		<div class="text-end carousel-indicators container">
 			<button type="button" data-bs-target="#mainBanner" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
-				<img src="assets/images/cyberpunk/cyberpunk-200x200.png" class="img-thumbnail" alt="Cyberpunk Lora">
+				<img src="assets/images/mystic/mystic-200x200.png" class="img-thumbnail" alt="Mystic Geisha">
 			</button>
 			<button type="button" data-bs-target="#mainBanner" data-bs-slide-to="1" aria-label="Slide 2">
-				<img src="assets/images/roulette/roulette-200x200.png" class="img-thumbnail" alt="Mini Roulette">
+				<img src="assets/images/broker/broker-200x200.png" class="img-thumbnail" alt="Broker">
 			</button>
 			<button type="button" data-bs-target="#mainBanner" data-bs-slide-to="2" aria-label="Slide 3">
-				<img src="assets/images/carnival/carnival-200x200.png" class="img-thumbnail" alt="Carnival Shooter">
+				<img src="assets/images/cyberpunk/cyberpunk-200x200.png" class="img-thumbnail" alt="Cyberpunk Lora">
 			</button>
 		</div>
 	</div>
@@ -106,64 +106,62 @@
 	<section class="main-content">
 		<div class="container">
 
-			<section class="menu-heading d-flex flex-wrap align-items-center justify-content-center">
-		
-				<ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 text-uppercase h5">
-					<a class="nav-link active" aria-current="page" href="#">
+			<section class="menu-heading d-flex flex-wrap align-items-center">
+				<ul class="nav justify-content-center mb-md-0 text-uppercase h5">
+					<a class="nav-link active" role="button" id="all">
 						All
 					</a>
-					<a class="nav-link" href="#">
+					<a class="nav-link" role="button" id="press">
 						Press Release
 					</a>
-					<a class="nav-link" href="#">
+					<a class="nav-link" role="button" id="game">
 						Game Release
 					</a>
 				</ul>
-
-				<div class="dropdown text-end" data-bs-theme="dark">
-					<a href="#" class="btn btn-secondary btn-lg d-block dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-						<span>Date</span> 
-					</a>
-					<div class="dropdown-menu p-3 dropdown-menu-dark">
-						<div class="form-check">
-							<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-							<label class="form-check-label" for="flexRadioDefault2">
-								All
-							</label>
-						</div>
-						<div class="dropdown-divider"></div>
-						<h5 class="text-secondary">2024</h5>
-						<a class="dropdown-item" href="#">July</a>
-						<a class="dropdown-item" href="#">June</a>
-						<a class="dropdown-item" href="#">May</a>
-						<a class="dropdown-item" href="#">April</a>
-						<a class="dropdown-item" href="#">March</a>
-					</div>
-				</div>
 			</section>
 
-			<div class="timeline">
+			<div id="timeline">
 
-				<article class="justify-content-end">
+				<article class="game">
+					<div class="card">
+						<img src="assets/images/mystic/mystic-600x300.png" alt="Mystic Geisha">
+						<div class="card-footer">✨ Enter the Garden of Fortune</div>
+						<a href="mystic.html" title="Read more" class="stretched-link"></a>
+					</div>
+					<div class="date">
+						<h1 class="display-1">27</h1>
+						<p class="lead">2025-11</p>
+					</div>
+				</article>
+
+				<article class="game">
+					<div class="card">
+						<img src="assets/images/broker/broker-600x300.png" alt="Broker">
+						<div class="card-footer">Broker</div>
+						<a href="broker.html" title="Read more" class="stretched-link"></a>
+					</div>
+					<div class="date">
+						<h1 class="display-1">13</h1>
+						<p class="lead">2025-11</p>
+					</div>
+				</article>
+
+				<article class="game">
+					<div class="card">
+						<img src="assets/images/cyberpunk/cyberpunk-600x300.png" alt="Cyberpunk Lora">
+						<div class="card-footer">Spin with purpose, strike with style, and light up the neon battlefield.</div>
+						<a href="cyberpunk.html" title="Read more" class="stretched-link"></a>
+					</div>
 					<div class="date">
 						<h1 class="display-1">30</h1>
 						<p class="lead">2025-10</p>
 					</div>
-					<div class="card">
-						<img src="assets/images/cyberpunk/cyberpunk-600x300.png" alt="Cyberpunk Lora">
-						<div class="card-body">
-							<p class="card-text">Spin with purpose, strike with style, and light up the neon battlefield.</p>
-						</div>
-						<a href="cyberpunk.html" title="Read more" class="stretched-link"></a>
-					</div>
 				</article>
 
-				<article class="justify-content-start">
+				<article class="game">
 					<div class="card">
 						<img src="assets/images/roulette/roulette-600x300.png" alt="Mini Roulette">
-						<div class="card-body">
-							<p class="card-text">Mini Roulette</p>
-						</div>
+						<div class="card-footer">Mini Roulette</div>
 						<a href="roulette.html" title="Read more" class="stretched-link"></a>
 					</div>
 					<div class="date">
@@ -172,26 +170,22 @@
 					</div>
 				</article>
 
-				<article class="justify-content-end">
+				<article class="game">
+					<div class="card">
+						<img src="assets/images/carnival/carnival-600x300.png" alt="Carnival Shooter">
+						<div class="card-footer">Step Right Up to the Wildest Spin on the Midway!</div>
+						<a href="carnival.html" title="Read more" class="stretched-link"></a>
+					</div>
 					<div class="date">
 						<h1 class="display-1">02</h1>
 						<p class="lead">2025-10</p>
 					</div>
-					<div class="card">
-						<img src="assets/images/carnival/carnival-600x300.png" alt="Carnival Shooter">
-						<div class="card-body">
-							<p class="card-text">Step Right Up to the Wildest Spin on the Midway!</p>
-						</div>
-						<a href="carnival.html" title="Read more" class="stretched-link"></a>
-					</div>
 				</article>
 
-				<article class="justify-content-start">
+				<article class="press">
 					<div class="card">
 						<img src="assets/images/news/betting_bet-600x300.png" alt="Betting.Bet">
-						<div class="card-body">
-							<p class="card-text">Betting.Bet</p>
-						</div>
+						<div class="card-footer">Betting.Bet</div>
 						<a href="betting_bet.html" title="Read more" class="stretched-link"></a>
 					</div>
 					<div class="date">
@@ -200,26 +194,22 @@
 					</div>
 				</article>
 
-				<article class="justify-content-end">
+				<article class="game">
+					<div class="card">
+						<img src="assets/images/pirates/pirates-600x300.png" alt="Pirate's Bounty">
+						<div class="card-footer">Ahoy, adventurers! Set sail for treasure!</div>
+						<a href="pirates.html" title="Read more" class="stretched-link"></a>
+					</div>
 					<div class="date">
 						<h1 class="display-1">02</h1>
 						<p class="lead">2025-09</p>
 					</div>
-					<div class="card">
-						<img src="assets/images/pirates/pirates-600x300.png" alt="Pirate's Bounty">
-						<div class="card-body">
-							<p class="card-text">Ahoy, adventurers! Set sail for treasure!</p>
-						</div>
-						<a href="pirates.html" title="Read more" class="stretched-link"></a>
-					</div>
 				</article>
 
-				<article class="justify-content-start">
+				<article class="game">
 					<div class="card">
 						<img src="assets/images/zap/zap-600x300.png" alt="Zap Keno">
-						<div class="card-body">
-							<p class="card-text">Your fast lane to fun!</p>
-						</div>
+						<div class="card-footer">Your fast lane to fun!</div>
 						<a href="zap.html" title="Read more" class="stretched-link"></a>
 					</div>
 					<div class="date">
@@ -228,26 +218,22 @@
 					</div>
 				</article>
 
-				<article class="justify-content-end">
+				<article class="game">
+					<div class="card">
+						<img src="assets/images/mines/mines-600x300.jpg" alt="Mines of Mystery">
+						<div class="card-footer">Unearth Riches in Mines of Mystery</div>
+						<a href="mines.html" title="Read more" class="stretched-link"></a>
+					</div>
 					<div class="date">
 						<h1 class="display-1">06</h1>
 						<p class="lead">2025-05</p>
 					</div>
-					<div class="card">
-						<img src="assets/images/mines/mines-600x300.jpg" alt="Mines of Mystery">
-						<div class="card-body">
-							<p class="card-text">Unearth Riches in Mines of Mystery</p>
-						</div>
-						<a href="mines.html" title="Read more" class="stretched-link"></a>
-					</div>
 				</article>
 
-				<article class="justify-content-start">
+				<article class="game">
 					<div class="card">
 						<img src="assets/images/goemon/goemon-600x300.png" alt="Goemon">
-						<div class="card-body">
-							<p class="card-text">Hero's Ascent, Fortune's Descent - Ninja's Way!</p>
-						</div>
+						<div class="card-footer">Hero's Ascent, Fortune's Descent - Ninja's Way!</div>
 						<a href="goemon.html" title="Read more" class="stretched-link"></a>
 					</div>
 					<div class="date">
@@ -256,26 +242,22 @@
 					</div>
 				</article>
 
-				<article class="justify-content-end">
+				<article class="game">
+					<div class="card">
+						<img src="assets/images/lode/lode-thumb.png" alt="Lo De">
+						<div class="card-footer">Bet Big, Win Bigger Choose the right lottery!</div>
+						<a href="lode.html" title="Read more" class="stretched-link"></a>
+					</div>
 					<div class="date">
 						<h1 class="display-1">15</h1>
 						<p class="lead">2024-08</p>
 					</div>
-					<div class="card">
-						<img src="assets/images/lode/lode-thumb.png" alt="Lo De">
-						<div class="card-body">
-							<p class="card-text">Bet Big, Win Bigger Choose the right lottery!</p>
-						</div>
-						<a href="lode.html" title="Read more" class="stretched-link"></a>
-					</div>
 				</article>
 
-				<article class="justify-content-start">
+				<article class="game">
 					<div class="card">
 						<img src="assets/images/hilo/hilo-news.png" alt="Hi Lo">
-						<div class="card-body">
-							<p class="card-text">Steer you win! Your card, your play, your way!</p>
-						</div>
+						<div class="card-footer">Steer you win! Your card, your play, your way!</div>
 						<a href="hilo.html" title="Read more" class="stretched-link"></a>
 					</div>
 					<div class="date">
@@ -284,26 +266,22 @@
 					</div>
 				</article>
 
-				<article class="justify-content-end">
+				<article class="game">
+					<div class="card">
+						<img src="assets/images/ss/snow-sweeper-news.png" alt="Snow Sweeper">
+						<div class="card-footer">Uncover the icy secrets, win the frozen adventure!</div>
+						<a href="snow-sweeper.html" title="Read more" class="stretched-link"></a>
+					</div>
 					<div class="date">
 						<h1 class="display-1">02</h1>
 						<p class="lead">2024-04</p>
 					</div>
-					<div class="card">
-						<img src="assets/images/ss/snow-sweeper-news.png" alt="Snow Sweeper">
-						<div class="card-body">
-							<p class="card-text">Uncover the icy secrets, win the frozen adventure!</p>
-						</div>
-						<a href="snow-sweeper.html" title="Read more" class="stretched-link"></a>
-					</div>
 				</article>
 
-				<article class="justify-content-start">
+				<article class="game">
 					<div class="card">
 						<img src="assets/images/cc/crypto-crash-news.png" alt="Crypto Crash">
-						<div class="card-body">
-							<p class="card-text">Defy the odds, test your wits, and soar up your win!</p>
-						</div>
+						<div class="card-footer">Defy the odds, test your wits, and soar up your win!</div>
 						<a href="crypto-crash.html" title="Read more" class="stretched-link"></a>
 					</div>
 					<div class="date">
@@ -312,17 +290,15 @@
 					</div>
 				</article>
 
-				<article class="justify-content-end">
+				<article class="game">
+					<div class="card">
+						<img src="assets/images/cr/crypto-roulette-news.png" alt="Crypto Roulette">
+						<div class="card-footer">Simplifies winning with decisive acts.</div>
+						<a href="crypto-roulette.html" title="Read more" class="stretched-link"></a>
+					</div>
 					<div class="date">
 						<h1 class="display-1">14</h1>
 						<p class="lead">2023-11</p>
-					</div>
-					<div class="card">
-						<img src="assets/images/cr/crypto-roulette-news.png" alt="Crypto Roulette">
-						<div class="card-body">
-							<p class="card-text">Simplifies winning with decisive acts.</p>
-						</div>
-						<a href="crypto-roulette.html" title="Read more" class="stretched-link"></a>
 					</div>
 				</article>
 
@@ -396,7 +372,45 @@
 <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/offcanvas-navbar.js"></script>
 <script>
+document.addEventListener("DOMContentLoaded", () => {
+  // Set the year
   document.getElementById("year").textContent = new Date().getFullYear();
+
+  // Select button container (recommended) or all buttons
+  const buttons = document.querySelectorAll(".nav-link");
+  const parent = document.getElementById("timeline");
+  const items = parent.querySelectorAll(":scope > article");
+
+  buttons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      const filter = btn.id;
+
+      // Update active state
+      buttons.forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+
+      // Show all
+      if (filter === "all") {
+        items.forEach(item => {
+          item.style.display = "flex";
+          item.style.opacity = "1";
+        });
+        return;
+      }
+
+      // Filter items
+      items.forEach(item => {
+        if (item.classList.contains(filter)) {
+          item.style.display = "flex";
+          requestAnimationFrame(() => (item.style.opacity = "1"));
+        } else {
+          item.style.opacity = "0";
+          setTimeout(() => (item.style.display = "none"), 300);
+        }
+      });
+    });
+  });
+});
 </script>
 
 </body>

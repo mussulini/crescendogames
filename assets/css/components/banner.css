@@ -13,7 +13,7 @@
     position: relative;
     display: block;
 }
-[data-bs-theme=dark] .main-banner .carousel-indicators [data-bs-target] {
+.main-banner .carousel-indicators [data-bs-target] {
     width: auto; height: auto;
     margin-left: auto; padding: 0;
     text-indent: 0; border: 0;
